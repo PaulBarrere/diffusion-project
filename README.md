@@ -1,5 +1,3 @@
-@mainpage
-
 Page d'accueil sympathique pour un projet fort sympathique
 ===============================================================
 ![DIffusion de Mie](https://www.iap.uni-jena.de/iapmedia/de/Gruppe+Wyro/2018/Pic_Mie+Scattering-width-500-height-158.jpg)
@@ -94,6 +92,4 @@ et
 
 ----------------------------------------
 On peut retrouver les figures et les codes sur GitLab <https://gitlab.obspm.fr/pbarrere/diffusion2>
-@date 10 Février 2021
-@author Paul Barrère
 
