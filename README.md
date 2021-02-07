@@ -1,9 +1,10 @@
-Page d'accueil sympathique pour un projet fort sympathique
+M2R AAIS numerical method project: Scattering and Monte-Carlo method
 ===============================================================
-![DIffusion de Mie](https://www.iap.uni-jena.de/iapmedia/de/Gruppe+Wyro/2018/Pic_Mie+Scattering-width-500-height-158.jpg)
-*Crédits: Institute of Aplied Physics (Universität Jena)*
+![Mie diffusion](https://www.iap.uni-jena.de/iapmedia/de/Gruppe+Wyro/2018/Pic_Mie+Scattering-width-500-height-158.jpg)
 
-Avant-propos
+*Credits: Institute of Aplied Physics (Universität Jena)*
+
+Foreword
 ----------------
 
 La diffusion de la lumière par une particule est bien décrite analytiquement (théorie de Rayleigh ou théorie de Mie). Néanmoins dès qu'on veut décrire le phénomène de diffusion à travers un milieu composé de plusieurs particules, il faut faire appel à des méthodes numériques comme celle de Monte-Carlo faisant appel à l'aléatoire.
