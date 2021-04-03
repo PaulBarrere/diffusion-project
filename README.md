@@ -55,7 +55,7 @@ Post-processing Python routines and the Makefile are also saved in this github p
 
 
 ----------------------------------------
-## Compilation with **make**
+## Compilation with *make*
 To compile and execute the most of the programs, this simple command is used:
 
     $ make program.exe && ./Bin/program.exe
