@@ -14,9 +14,8 @@ que les routines Python sont modifiables selon la façon dont on veut
 traiter les données et ne sont donc, ici, que des exemples de ce que
 l'on peut faire.
 
-*Light scattering by a single particule is well analitically described (Rayleigh and Mie theories). Nevertheless describing the scattering phenomenon through a layer composed of several particles, numerical methods are needed like the Monte-Carlo one using randomness*
-
-*This project gathers FORTRAN 90 codes that simulate light scattering through a layer of spherical particles between 2 boundless parallel planes.
+*Light scattering by a single particule is well analitically described (Rayleigh and Mie theories). Nevertheless describing the scattering phenomenon through a layer composed of several particles, numerical methods are needed like the Monte-Carlo one using randomness.
+This project gathers FORTRAN 90 codes that simulate light scattering through a layer of spherical particles between 2 boundless parallel planes.
 First, *
 
 ----------------------------------------
