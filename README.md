@@ -8,15 +8,11 @@ M2R AAIS numerical method project: Scattering and Monte-Carlo method
 Foreword
 ----------------
 
-Ce projet rassemble plusieurs codes en FORTRAN 90 où l'on simule le phénomène de diffusion à travers une couche de diffuseurs entre deux plan-parallèles infinis. Tout d'abord on se place dans l'approximation isotrope, puis dans le domaine de validité la théorie de Rayleigh. Enfin les derniers programmes prennent en compte la polarisation de la lumière avec la théroie de Mie qui est plus réaliste.
-Les routines Python et le Makefile ont été rajoutés. Il est à noter
-que les routines Python sont modifiables selon la façon dont on veut
-traiter les données et ne sont donc, ici, que des exemples de ce que
-l'on peut faire.
+Light scattering by a single particule is well analitically described (Rayleigh and Mie theories). Nevertheless describing the scattering phenomenon through a layer composed of several particles, numerical methods are needed like the Monte-Carlo one using randomness. 
 
-*Light scattering by a single particule is well analitically described (Rayleigh and Mie theories). Nevertheless describing the scattering phenomenon through a layer composed of several particles, numerical methods are needed like the Monte-Carlo one using randomness.
-This project gathers FORTRAN 90 codes that simulate light scattering through a layer of spherical particles between 2 boundless parallel planes.
-First, *
+This project gathers FORTRAN 90 codes that simulate light scattering through a layer of spherical particles between 2 boundless parallel planes. First, isotropic and then Rayleigh scattering was implemented. Finally, light polarisation was considered in the frame of Mie formalism to simulate scattering of light by bigger particules.
+
+Post-processing Python routines and the Makefile are also saved in this github project. They are easily editable according to what data is meant to be plotted. These are here just exemples of what can be done with the results of the simulations.
 
 ----------------------------------------
 ## Modules in FORTRAN 90
