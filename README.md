@@ -1,16 +1,12 @@
-M2R AAIS projet de méthode numérique: Diffusion et méthode de Monte-Carlo *M2R AAIS numerical method project: Scattering and Monte-Carlo method*
+M2R AAIS numerical method project: Scattering and Monte-Carlo method
 ===============================================================
 
 ![Mie diffusion](https://www.iap.uni-jena.de/iapmedia/de/Gruppe+Wyro/2018/Pic_Mie+Scattering-width-500-height-158.jpg)
 
 *Credits: Institute of Aplied Physics (Universität Jena)*
 
-Préambule *Foreword*
+Foreword
 ----------------
-
-
-
-La diffusion de la lumière par une particule est bien décrite analytiquement (théorie de Rayleigh ou théorie de Mie). Néanmoins dès qu'on veut décrire le phénomène de diffusion à travers un milieu composé de plusieurs particules, il faut faire appel à des méthodes numériques comme celle de Monte-Carlo faisant appel à l'aléatoire.
 
 Ce projet rassemble plusieurs codes en FORTRAN 90 où l'on simule le phénomène de diffusion à travers une couche de diffuseurs entre deux plan-parallèles infinis. Tout d'abord on se place dans l'approximation isotrope, puis dans le domaine de validité la théorie de Rayleigh. Enfin les derniers programmes prennent en compte la polarisation de la lumière avec la théroie de Mie qui est plus réaliste.
 Les routines Python et le Makefile ont été rajoutés. Il est à noter
@@ -20,10 +16,11 @@ l'on peut faire.
 
 *Light scattering by a single particule is well analitically described (Rayleigh and Mie theories). Nevertheless describing the scattering phenomenon through a layer composed of several particles, numerical methods are needed like the Monte-Carlo one using randomness*
 
-*This project gathers FORTRAN 90 codes that simulate *
+*This project gathers FORTRAN 90 codes that simulate light scattering through a layer of spherical particles between 2 boundless parallel planes.
+First, *
 
 ----------------------------------------
-## Fichiers des modules FORTRAN 90
+## Modules in FORTRAN 90
   * mod_param.f90
   * mod_random.f90
   * mod_fzero.f90
@@ -34,27 +31,27 @@ l'on peut faire.
   * mod_mie.f90
   * mie.f90
 
-## Programmes FORTRAN 90
-### Diffusion isotrope
+## Program in FORTRAN 90
+### Isotropic scattering
   * iso_diff.f90
   * iso_diff_abs.f90
 
-### Diffusion de Rayleigh
+### Rayleigh scattering
   * rayl_diff.f90
   * rayl_RGB.f90
   * rayl_stereo_RGB.f90
 
-### Diffusion de Mie
+### Mie scattering
   * mie_diff.f90
   * mie_diff_CloudySky.f90
   * mie_RGB.f90
   * mie_stereo_RGB.f90
 
-### Autres modèles de diffusion
+### Other scattering models
   * hg_diff.f90
   * polyn_diff.f90
 
-### Divers tests
+### Some tests
   * random_test.f90
   * random_test2.f90
   * env_eff.f90
@@ -63,25 +60,25 @@ l'on peut faire.
 
 
 ----------------------------------------
-## Compilation avec **make**
-Pour compiler et executer la majorité des programmes la simple commande suivante suffit:
+## Compilation with **make**
+To compile and execute the most of the programs, this simple command is used:
 
     $ make program.exe && ./Bin/program.exe
 
-Les deux exceptions sont pour rayl_stereo_RGB.f90 et mie_stereo_RGB.f90:
+The two exepctions are rayl_stereo_RGB.f90
 
     $ make rayl_RGB.exe && ./Bin/rayl_RGB.exe
     $ make rayl_stereo_RGB.exe && ./Bin/rayl_stereo_RGB.exe
 
-et
+and mie_stereo_RGB.f90
 
     $ make mie_RGB.exe && ./Bin/mie_RGB.exe
     $ make mie_stereo_RGB.exe && ./Bin/mie_stereo_RGB.exe
 
 
 ---------------------------------------
-## Fichiers annexes 
-### Routines Python
+## Attached files 
+### Post-processing routines in Python
   * deg_pol.py
   * diag_pol_diff.py
   * diag_pol_diff_bhmie.py
@@ -99,4 +96,4 @@ et
 
 
 ----------------------------------------
-On peut retrouver les figures et les codes sur GitLab <https://gitlab.obspm.fr/pbarrere/diffusion2>
+Plots and codes can also be found on GitLab <https://gitlab.obspm.fr/pbarrere/diffusion2>
