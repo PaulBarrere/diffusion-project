@@ -95,8 +95,9 @@ et
 ----------------------------------------
 On peut retrouver les figures et les codes sur GitLab <https://gitlab.obspm.fr/pbarrere/diffusion2>
 
-===============================================================
-===============================================================
+
+
+
 
 M2R AAIS numerical method project: Scattering and Monte-Carlo method
 ===============================================================
